@@ -77,7 +77,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header section
-st.markdown('<div class="main-header">💬 Pharma Insights Chatbot</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">💬 Pharma Insights Chatbot 🤖</div>', unsafe_allow_html=True)
 st.markdown('💡 This app features a chatbot powered by OpenAI for answering society-related queries.', unsafe_allow_html=True)
 
 # Predefined Prompt Buttons in a grid
