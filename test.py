@@ -142,7 +142,7 @@ for msg in st.session_state["messages"]:
         st.chat_message("assistant").write(msg["content"])
 
 # Pharma Society Q&A Generator Section
-st.markdown('<div class="main-header">💊 Pharma Society QnA Report Generator</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">💊 Pharma Society QnA Report Generator 💉</div>', unsafe_allow_html=True)
 st.write("🔬 This Q&A generator allows users to fetch answers to predefined queries about pharmaceutical societies by entering the society name in the text box. It uses OpenAI to generate answers specific to the entered society and displays them in a tabular format. Users can download this report as an Excel file.")
 
 # Step 1: Initialize session state to track selected societies and report data
